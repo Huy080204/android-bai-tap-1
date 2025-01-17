@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtListNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/edit_text"
+            android:clickable="false"
+            android:focusable="false"
+            android:hint="List: "
+            android:padding="10dp"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/edtOddNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/edit_text"
+            android:clickable="false"
+            android:focusable="false"
+            android:hint="Odd: "
+            android:padding="10dp"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/edtEvenNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Even: "
+            android:textSize="30sp"
+            android:background="@android:drawable/edit_text"
+            android:focusable="false"
+            android:clickable="false"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btnRandom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            android:text="Random" />
+    </LinearLayout>
+</RelativeLayout>
